@@ -3,7 +3,7 @@
 This application can be used to disable unwanted bloatwares which come pre-installed with the OEMs and cannot be uninstalled directly from the device. **This application does not require any root access.**
 
 ## Pre-requisites:
-1. A PC with Python 3.x installed on it (Download it from [here](https://www.python.org/downloads/)).
+1. A PC with Python 3.x installed on it (Download python from [here](https://www.python.org/downloads/)).
 2. Developer options should be enabled on mobile phone.
 3. USB Debugging in Developer options should be enabled (Follow : [Enable USB Debugging](https://github.com/raghav-mundhra/AndroidBloatwareRemover/blob/main/README.md#how-to-enable-developer-options-and-usb-debugging) for steps).
 
