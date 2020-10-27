@@ -1,11 +1,11 @@
 # AndroidBloatwareRemover
 
-This application can be used to disable unwanted bloatwares which comes pre-installed with the OEMs and cannot be uninstalled directly from the device. This application do not require any root access.
+This application can be used to disable unwanted bloatwares which come pre-installed with the OEMs and cannot be uninstalled directly from the device. **This application does not require any root access.**
 
 ## Pre-requisites:
-1. A PC with Python 3.x installed on it.
+1. A PC with Python 3.x installed on it (Download it from [here](https://www.python.org/downloads/)).
 2. Developer options should be enabled on mobile phone.
-3. USB Debugging in Developer options should be enabled.
+3. USB Debugging in Developer options should be enabled (Follow : [Enable USB Debugging](https://github.com/raghav-mundhra/AndroidBloatwareRemover/blob/main/README.md#how-to-enable-developer-options-and-usb-debugging) for steps).
 
 ## Steps to use this application:
 1. Connect your device to your PC with a USB cable (Make sure USB Debugging is enabled).
@@ -25,4 +25,8 @@ This application can be used to disable unwanted bloatwares which comes pre-inst
 4. Open "Developer Options".
 5. Enable "USB Debugging".
 
-**Note** : *This application do not deletes the bloatware/app from the ROM completely. It only removes it for the active user. The app data will still be in the ROM but it won't be able to execute and you cannot access it. All the functionalities and processes of that app will be removed. The device will "think" as if the app is uninstalled. This won't void your warranty and you will still be able to receive OTA updates from your device manufacturer. A pre-installed bloatware can be uninstalled completely with root privileges  only.*
+## Future advancements: 
+1. Build this code into an executable file and upload it soon.
+2. Working on the feature to re-install the app (if removed by mistake).
+
+**Note** : *This application does not delete the bloatware/app from the ROM completely. It only removes it for the active user. The app data will still be in the ROM but it won't be able to execute and you cannot access it. All the functionalities and processes of that app will be removed. This won't void your warranty and you will still be able to receive OTA updates from your device manufacturer. A pre-installed bloatware can be uninstalled completely with root privileges  only.*
