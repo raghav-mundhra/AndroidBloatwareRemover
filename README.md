@@ -2,8 +2,6 @@
 
 This application can be used to disable unwanted bloatwares which come pre-installed with the OEMs and cannot be uninstalled directly from the device. **This application does not require any root access.**
 
-**Note** : *This application does not delete the bloatware/app from the ROM completely. It only removes it for the active user. The app data will still be in the ROM but it won't be able to execute and you cannot access it. All the functionalities and processes of that app will be removed. This won't void your warranty and you will still be able to receive OTA updates from your device manufacturer. A pre-installed bloatware can be uninstalled completely with root privileges  only.*
-
 ## Pre-requisites:
 1. A PC with Python 3.x installed on it (Download python from [here](https://www.python.org/downloads/)).
 2. Developer options should be enabled on mobile phone.
@@ -28,5 +26,7 @@ This application can be used to disable unwanted bloatwares which come pre-insta
 5. Enable "USB Debugging".
 
 ## Future advancements: 
-1. Working on the feature to re-install the app (if removed by mistake).
+1. Build this code into an executable file and upload it soon.
+2. Working on the feature to re-install the app (if removed by mistake).
 
+**Note** : *This application does not delete the bloatware/app from the ROM completely. It only removes it for the active user. The app data will still be in the ROM but it won't be able to execute and you cannot access it. All the functionalities and processes of that app will be removed. This won't void your warranty and you will still be able to receive OTA updates from your device manufacturer. A pre-installed bloatware can be uninstalled completely with root privileges  only.*
